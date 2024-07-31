@@ -24,7 +24,7 @@ https://www.conduktor.io/kafka/kafka-topics-cli-tutorial/
 # create a Kafka topic
 aashritakafka@DESKTOP-U2SQV3E:~$ kafka-topics.sh --bootstrap-server localhost:9092 --topic first_topic --create --partitions 3 --replication-factor 1
 # WARNING: Due to limitations in metric names, topics with a period ('.') or underscore ('_') could collide. To avoid issues it is best to use either, but not both.
-Created topic first_topic.
+# Created topic first_topic.
 
 #list Kafka Topics
 aashritakafka@DESKTOP-U2SQV3E:~$ kafka-topics.sh --bootstrap-server localhost:9092 --list
