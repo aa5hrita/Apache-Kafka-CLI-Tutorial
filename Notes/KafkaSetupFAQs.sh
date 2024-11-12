@@ -2,7 +2,7 @@ FAQ for Setup Problems
 
 Please refer to this lecture first if you have set up problems.
 
-We recommend starting Kafka with Conduktor(https://conduktor.io/get-started) if you're having issues even after troubleshooting
+We recommend starting Kafka with Conduktor(https://conduktor.io/get-started) if you are having issues even after troubleshooting
 
 ==================================================================================================================================
 
@@ -26,6 +26,6 @@ This is how Kafka works. Data is only retained for 7 days.
 
 Make sure you have changed the Zookeeper dataDir=/path/to/data/zookeeper , and Kafka log.dirs=/path/to/data/kafka
 
-> I have launched Kafka in a VM or in the Cloud, and I can't produce to Kafka
+> I have launched Kafka in a VM or in the Cloud, and I cannot produce to Kafka
 
-If you can't produce to Kafka, it's possible you are using a VM and this can break the Kafka behaviour. Please look at the annex lectures for solutions of how to deal with that. I strongly recommend doing this tutorial using the Kafka binaries and localhost
+If you cannot produce to Kafka, it is possible you are using a VM and this can break the Kafka behaviour. Please look at the annex lectures for solutions of how to deal with that. I strongly recommend doing this tutorial using the Kafka binaries and localhost

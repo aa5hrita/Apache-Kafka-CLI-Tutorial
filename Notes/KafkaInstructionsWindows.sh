@@ -1,5 +1,5 @@
 Windows WSL2 - Extra Instructions
-IMPORTANT: If you're using Kafka on Windows WSL2
+IMPORTANT: If you are using Kafka on Windows WSL2
 
 
 When running a command from the CLI outside of WSL2 or your Java programs, you may get the following error:
@@ -40,7 +40,7 @@ https://stackoverflow.com/questions/64177422/unable-to-produce-to-kafka-topic-th
 
 
 
-If after using these fixes, you still can't connect to Kafka, we recommend either
+If after using these fixes, you still cant connect to Kafka, we recommend either
 Running Kafka on Windows non-WSL2 (next lecture)
 
 Running Kafka online using Conduktor
